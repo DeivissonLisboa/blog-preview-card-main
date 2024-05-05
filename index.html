@@ -28,32 +28,38 @@
     </style>
   </head>
   <body>
-    <div class="container">
-      <div class="card">
+    <div class="[ container ] [ flex-1 display-grid ]">
+      <div
+        class="[ card ] [ flow ] [ bg-neutral-300 padding-16 borderr-3 border ]"
+      >
         <div>
           <img
-            class="card__image"
+            class="[ card__image ] [ borderr-2 ]"
             src="./assets/images/illustration-article.svg"
             alt=""
           />
         </div>
 
-        <div class="card__content">
-          <div class="tag">
+        <div class="[ card__content ] [ flow ]">
+          <div class="[ tag ] [ fw-bold bg-primary-400 borderr-1 ]">
             <p>Learning</p>
           </div>
 
           <p>Published 21 Dec 2023</p>
 
-          <h2>HTML & CSS foundations</h2>
-          <p>
+          <h2 class="[ fw-bold ]">HTML & CSS foundations</h2>
+          <p class="[ text-neutral-400 ]">
             These languages are the backbone of every website, defining
             structure, content, and presentation.
           </p>
 
-          <div class="author">
-            <img src="./assets/images/image-avatar.webp" alt="" />
-            <p>Greg Hooper</p>
+          <div class="[ author ]">
+            <img
+              class="[ author__image ]"
+              src="./assets/images/image-avatar.webp"
+              alt=""
+            />
+            <p class="[ fw-bold ]">Greg Hooper</p>
           </div>
         </div>
       </div>
