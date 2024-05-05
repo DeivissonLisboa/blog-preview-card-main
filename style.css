@@ -48,10 +48,22 @@ h3 {
   line-height: 1.1;
 }
 
+a,
+.link {
+  color: var(--clr-neutral-900);
+  font-weight: var(--fw-800);
+  text-decoration: none;
+}
+
 /* Composition */
 .display-grid {
   display: grid;
   place-items: center;
+}
+
+.display-flex {
+  display: flex;
+  align-items: center;
 }
 
 .flex-1 {
@@ -110,6 +122,10 @@ h3 {
   box-shadow: 10px 10px rgb(0, 0, 0);
 }
 
+.card:hover {
+  box-shadow: 15px 15px rgb(0, 0, 0);
+}
+
 .tag {
   width: fit-content;
   padding: 0.1rem 0.5rem;
@@ -128,4 +144,8 @@ h3 {
 
 .author__image {
   width: 1.5rem;
+}
+
+.card__title a:hover {
+  color: var(--clr-primary-400);
 }
