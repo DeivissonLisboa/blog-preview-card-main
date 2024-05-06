@@ -126,12 +126,8 @@ footer {
 
 /* Block */
 .card {
-  width: min(18rem, 85%);
-  box-shadow: 10px 10px rgb(0, 0, 0);
-}
-
-.card:hover {
-  box-shadow: 15px 15px rgb(0, 0, 0);
+  width: min(20rem, 85%);
+  box-shadow: 0.5rem 0.5rem rgb(0, 0, 0);
 }
 
 .tag {
